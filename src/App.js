@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Img from '../src/component/Img.jsx'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h6>React Skill Session</h6>
+    <p>React is a free and open source front-end js library for building user interfaces based on components</p>
+    <Img/>
     </div>
   );
 }
